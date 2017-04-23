@@ -18,6 +18,8 @@
 		2D09EF9A1EAB324100FD278C /* MyVc2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D09EF991EAB324100FD278C /* MyVc2.m */; };
 		2D09EF9D1EAB325200FD278C /* MyVc3.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D09EF9C1EAB325200FD278C /* MyVc3.m */; };
 		2D09EFA01EAB35C500FD278C /* YacOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D09EF9F1EAB35C500FD278C /* YacOperation.m */; };
+		2DEAA3F21EAC8DC2009EBDB6 /* MyVc4.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAA3F11EAC8DC2009EBDB6 /* MyVc4.m */; };
+		2DEAA3F61EAC913C009EBDB6 /* MyVc5.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAA3F51EAC913C009EBDB6 /* MyVc5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,10 @@
 		2D09EF9C1EAB325200FD278C /* MyVc3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyVc3.m; sourceTree = "<group>"; };
 		2D09EF9E1EAB35C500FD278C /* YacOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YacOperation.h; sourceTree = "<group>"; };
 		2D09EF9F1EAB35C500FD278C /* YacOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YacOperation.m; sourceTree = "<group>"; };
+		2DEAA3F01EAC8DC2009EBDB6 /* MyVc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyVc4.h; sourceTree = "<group>"; };
+		2DEAA3F11EAC8DC2009EBDB6 /* MyVc4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyVc4.m; sourceTree = "<group>"; };
+		2DEAA3F41EAC913C009EBDB6 /* MyVc5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyVc5.h; sourceTree = "<group>"; };
+		2DEAA3F51EAC913C009EBDB6 /* MyVc5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyVc5.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,8 @@
 				2D09EF8A1EAB31FA00FD278C /* GCDDemo */,
 				2D09EF8B1EAB31FA00FD278C /* NSOpearationDemo */,
 				2D09EF8C1EAB31FA00FD278C /* NSThreadDemo */,
+				2DEAA3EF1EAC8DA4009EBDB6 /* MainThread */,
+				2DEAA3F31EAC9132009EBDB6 /* PthreadDemo */,
 				2D09EF691EAB31B600FD278C /* Supporting Files */,
 			);
 			path = YacThread;
@@ -134,6 +142,24 @@
 				2D09EF961EAB323000FD278C /* YacThread.m */,
 			);
 			path = NSThreadDemo;
+			sourceTree = "<group>";
+		};
+		2DEAA3EF1EAC8DA4009EBDB6 /* MainThread */ = {
+			isa = PBXGroup;
+			children = (
+				2DEAA3F01EAC8DC2009EBDB6 /* MyVc4.h */,
+				2DEAA3F11EAC8DC2009EBDB6 /* MyVc4.m */,
+			);
+			path = MainThread;
+			sourceTree = "<group>";
+		};
+		2DEAA3F31EAC9132009EBDB6 /* PthreadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2DEAA3F41EAC913C009EBDB6 /* MyVc5.h */,
+				2DEAA3F51EAC913C009EBDB6 /* MyVc5.m */,
+			);
+			path = PthreadDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +237,8 @@
 				2D09EF941EAB321C00FD278C /* MyVc.m in Sources */,
 				2D09EF8D1EAB31FA00FD278C /* AppDelegate.m in Sources */,
 				2D09EF6B1EAB31B600FD278C /* main.m in Sources */,
+				2DEAA3F21EAC8DC2009EBDB6 /* MyVc4.m in Sources */,
+				2DEAA3F61EAC913C009EBDB6 /* MyVc5.m in Sources */,
 				2D09EF9A1EAB324100FD278C /* MyVc2.m in Sources */,
 				2D09EF9D1EAB325200FD278C /* MyVc3.m in Sources */,
 				2D09EF911EAB31FA00FD278C /* ViewController.m in Sources */,
@@ -374,6 +402,7 @@
 				2D09EF7F1EAB31B600FD278C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
